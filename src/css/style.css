@@ -1,0 +1,85 @@
+:root {
+    --primary: #111;
+    --secondary: #333;
+    --text-color: #fff;
+}
+
+body,html {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    font-family: "Barlow Condensed", sans-serif;
+}
+
+body{
+    background-image: url('../assets/img/banner.png');
+    background-color: #000;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+nav{
+    position: fixed;
+    width: 75vw;
+    bottom: 0px;
+    left: 12.5vw;
+    background: #bfb4b4;
+    color: #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: .5rem;
+    z-index: 10000;
+}
+
+nav a{
+    text-decoration: none;
+    color: #111;
+}
+
+nav a:active, nav a:clicked{
+    font-weight: bold;
+}
+
+#img-about:hover{
+    transform: scale(1.05);
+    transition: all .3s ease-in-out;
+}
+
+#mouse{
+    animation: bouncing 1s infinite alternate ease-in
+}
+
+@keyframes bouncing {
+    from {
+        transform: translateY(0%);
+    }
+
+    to {
+        transform: translateY(25%)
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .mobile-hide{
+        display: none !important;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .mobile{
+        display: inline !important;
+    }
+}
+
+@media only screen and (min-width: 501px){
+    .mobile{
+        display: none !important;
+    }
+}

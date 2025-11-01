@@ -1,0 +1,36 @@
+/* 
+    Aqui ficarão os utilizaveis, textos, backgrounds, btns e etc.
+*/
+
+/* Backgrounds */
+.bg-light-custom {
+    background: linear-gradient(#bfb4b4, #fff, ghostwhite) !important;
+    color: #0a0908;
+}
+.bg-dark-custom{
+    background: linear-gradient(#000, #0b090a, #0a0908) !important
+}
+
+/* Texts */
+.text-insta{
+    color: #E1306C !important;
+}
+
+.text-dark-gray{
+    color: #333 !important;
+}
+
+.text-gray{
+    color: #555 !important;
+}
+
+.text-gray-light{
+    color: #777 !important;
+}
+
+.text-gray-sub{
+    color: #fff !important;
+    background: #555 !important;
+    padding: 2px 6px;
+    border-radius: 4px;
+}
