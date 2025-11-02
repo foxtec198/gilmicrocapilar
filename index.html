@@ -26,6 +26,12 @@
         <a class="btn btn-outline-dark" href="#contato">Entre em Contato</a>
     </nav>
 
+    <!-- WhatsappButton -->
+    <a href="https://api.whatsapp.com/send/?phone=5543988733983" target="_blank" title="Entre em contato"
+        id="btn_whats">
+        <i class="bi bi-whatsapp"></i>
+    </a>
+
     <!-- Hero -->
     <div class="p-5 d-flex flex-column justify-content-end align-items-center text-center h-100" id="home">
         <span class="display-4 fw-bold ftt" data-aos="fade">Gil Microcapilar</span>
@@ -54,8 +60,10 @@
                     <div class="card-footer mb-2 d-flex justify-content-between gap-2 fs-4">
                         <a class="btn btn-light fw-bold" href="#contato">Contrate Já</a>
                         <div class="d-flex gap-2">
-                            <a class="text-light" href=""><i class="bi bi-instagram"></i></a>
-                            <a class="text-light" href=""><i class="bi bi-whatsapp"></i></a>
+                            <a class="text-light" href="https://www.instagram.com/gil_microcapilar/"><i
+                                    class="bi bi-instagram"></i></a>
+                            <a class="text-light" href="https://api.whatsapp.com/send/?phone=5543988733983"><i
+                                    class="bi bi-whatsapp"></i></a>
                         </div>
                     </div>
                 </div>
@@ -80,7 +88,7 @@
             </span>
             <div class="d-flex gap-4 flex-wrap p-4 justify-content-between">
                 <!-- Lista de Horarios -->
-                <ul class="list-group flex-grow-1 rounded-4" style="flex-basis: 400px;">
+                <ul class="list-group flex-grow-1 rounded-4" style="flex-basis: 400px;" data-aos="fade-up">
                     <li
                         class="list-group-item list-group-item-action bg-dark-custom d-flex justify-content-between align-items-start">
                         <div class="ms-2 me-auto">
@@ -141,36 +149,66 @@
                 <iframe class="flex-grow-1 rounded-4" style="flex-basis: 300px; min-height: 300px; min-width: 200px;"
                     id="locate"
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3664.900804884488!2d-51.15794462467834!3d-23.283053778992088!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94eb44e8fd614015%3A0xe0dff0a42a85b6db!2sAv.%20L%C3%BAcia%20Helena%20Gon%C3%A7alves%20Viana%2C%201149%20-%20Pacaembu%2C%20Londrina%20-%20PR%2C%2086079-180!5e0!3m2!1spt-BR!2sbr!4v1761979467953!5m2!1spt-BR!2sbr"
-                    style="border:0;" allowfullscreen="false" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    style="border:0;" allowfullscreen="false" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                    data-aos="fade-down"></iframe>
             </div>
         </div>
     </section>
 
     <!-- Contato -->
-    <section class="bg-light-custom h-100" id="contato">
+    <section class="bg-light-custom" id="contato">
         <div class="container">
             <span class="display-4 fw-bold" data-aos="fade-up">Entre em <span
                     class="text-dark-gray">Contato!</span></span>
+            <div class="d-flex gap-2 justify-content-center align-items-center p-4 flex-wrap">
+                <form class="form-control d-flex flex-column gap-2 p-4" style="flex-basis: 500px;">
+                    <span class="fs-5 ftt">Digite seus dados abaixo!</span>
+                    <span>Lembrando que seus dados são confidenciais, e protegido pela lei LGPD N° 13.709/2018!</span>
+
+                    <div class="form-floating">
+                        <input class="form-control" name="name" type="text" placeholder="Seu nome." autocomplete="name">
+                        <label for="name">Seu nome.</label>
+                    </div>
+                    <div class="form-floating">
+                        <input class="form-control" name="email" type="email" placeholder="Seu email." autocomplete="email">
+                        <label for="email">Seu email.</label>
+                    </div>
+                    <div class="form-floating">
+                        <input class="form-control" name="tel" type="tel" placeholder="Seu whatsapp." autocomplete="tel">
+                        <label for="tel">Seu whatsapp.</label>
+                    </div>
+                    <button class="btn btn-outline-light w-100">Entrar em contato!</button>
+                </form>
+                <span class="fs-4"> -- Ou --</span>
+                <div class="d-flex">
+                    
+                </div>
+            </div>
         </div>
     </section>
 
     <!-- Foooter -->
-    <footer class="h-100 p-5 mobile-hide">
+    <footer class="h-100 p-5 mobile-hide" id="footer">
         <div class="d-flex h-100 flex-column">
             <div class="d-flex mt-5 justify-content-between align-items-center flex-grow-1">
-                <div class="d-flex flex-column gap-2 fs-5" data-aos="fade-right">
+                <div class="d-flex flex-column gap-2 fs-5" data-aos="fade-down">
                     <span class="ftt">Contatos:</span>
-                    <span>gilmarmicrocapilar@gmail.com</span>
-                    <span>(43)98873-3983</span>
-
+                    <a class="text-decoration-none text-light" target="_blank"
+                        href="mailto:gilmarmicrocapilar@gmail.com"><i class="bi bi-envelope-paper-fill"></i>
+                        gilmarmicrocapilar@gmail.com</a>
+                    <a class="text-decoration-none text-light" target="_blank"
+                        href="https://api.whatsapp.com/send/?phone=5543988733983"><i class="bi bi-telephone-fill"></i>
+                        (43)98873-3983</a>
+                    <a class="text-decoration-none text-light" target="_blank"
+                        href="https://www.instagram.com/gil_microcapilar/"><i class="bi bi-instagram"></i>
+                        @gil_microcapilar</a>
                 </div>
-                <div class="d-flex flex-column align-items-center justify-content-center" data-aos="fade-left">
+                <div class="d-flex flex-column align-items-center justify-content-center" data-aos="fade-down">
                     <img src="src/assets/svg/favicon.svg" width="100vh" alt="">
                     &copy; 2025 Gil Microcapilar. Todos os direitos reservados.
                 </div>
             </div>
-            <div class="flex-grow-1 text-center" style="transform: translateY(200px);" data-aos="fade-down">
+            <div class="flex-grow-1 text-center" style="transform: translateY(200px);" data-aos="fade-up">
                 <a href="https://tecnobreve.onrender.com" class="text-decoration-none text-light"
                     target="_blank">Desenvolvido por
                     <img src="src/assets/img/tecnobreve.png" class="img-fluid" width="200vh" alt=""></a>
@@ -195,7 +233,6 @@
                 <img src="src/assets/img/tecnobreve.png" class="img-fluid" width="200vh" alt=""></a>
         </div>
     </footer>
-    
 
     <!-- Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
