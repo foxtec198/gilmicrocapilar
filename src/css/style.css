@@ -15,12 +15,14 @@ body,html {
 body{
     background-image: url('../assets/img/banner.png');
     background-color: #000;
-    background-size: cover;
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
-
+    
+    background-size: cover;
     -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
 }
 
 nav{
