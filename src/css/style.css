@@ -12,17 +12,33 @@ body,html {
     font-family: "Barlow Condensed", sans-serif;
 }
 
-body{
+/* 
+Tudo isso pra um background-attachment: fixed, funcionar na porcaria de Iphone :| 
+UMA Linha Virou 19 LINHASSSS!!!! 
+*/
+
+.backHero {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
     background-image: url('../assets/img/banner.png');
-    background-color: #000;
-    background-position: center;
-    background-attachment: fixed;
     background-repeat: no-repeat;
-    
+    background-position: center;
     background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    z-index: -1;
+}
+
+.contHero {
+    height: 100vh;
+    position: relative;
+    z-index: 1;
+    padding: 5rem;
+}
+
+.zi-2{
+    z-index: 20000;
 }
 
 nav{

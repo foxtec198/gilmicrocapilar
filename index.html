@@ -33,7 +33,8 @@
     </a>
 
     <!-- Hero -->
-    <div class="p-5 d-flex flex-column justify-content-end align-items-center text-center h-100" id="home">
+    <div class="backHero"></div>
+    <div class="contHero d-flex flex-column justify-content-end align-items-center">
         <span class="display-4 fw-bold ftt" data-aos="fade">Gil Microcapilar</span>
         <span class="fs-4" data-aos="fade-down">A estética que da confiança.</span>
         <div class="d-flex mb-5 mt-2 align-items-center justify-content-center w-100" id="mouse">
@@ -42,7 +43,7 @@
     </div>
 
     <!-- About Me -->
-    <section class="bg-light-custom d-flex text-bg-light" id="about">
+    <section class="bg-light-custom zi-2 d-flex text-bg-light" id="about">
         <div class="container py-5">
             <span class="display-4 fw-bold" data-aos="fade-up">Sobre <span class="text-dark-gray">mim.</span></span>
             <div class="d-flex gap-4 flex-wrap-reverse justify-content-center align-items-center p-4">
@@ -79,7 +80,7 @@
     </section>
 
     <!-- Endereço -->
-    <section class="bg-dark-custom" id="local">
+    <section class="bg-dark-custom zi-2" id="local">
         <div class="container py-5">
             <span class="display-4 fw-bold text-end" data-aos="fade-up">
                 Minha <span class="text-gray-light">Localização.</span>
@@ -155,7 +156,7 @@
     </section>
 
     <!-- Contato -->
-    <section class="bg-light-custom" id="contato">
+    <section class="bg-light-custom zi-2" id="contato">
         <div class="container">
             <span class="display-4 fw-bold" data-aos="fade-up">Entre em <span
                     class="text-dark-gray">Contato!</span></span>
@@ -197,7 +198,7 @@
     </section>
 
     <!-- Foooter -->
-    <footer class="h-100 p-5 mobile-hide" id="footer">
+    <footer class="h-100 p-5 mobile-hide zi-2" id="footer">
         <div class="d-flex h-100 flex-column">
             <div class="d-flex mt-5 justify-content-between align-items-center flex-grow-1">
                 <div class="d-flex flex-column gap-2 fs-5" data-aos="fade-down">
@@ -226,7 +227,7 @@
     </footer>
 
     <!-- Footer Mobilr -->
-    <div class="d-flex bg-dark-custom flex-column gap-4 p-4 mobile justify-content-center align-items-center">
+    <div class="d-flex bg-dark-custom zi-2 flex-column gap-4 p-4 mobile justify-content-center align-items-center">
         <div class="d-flex mt-5 flex-column gap-2 fs-5" data-aos="fade-down">
             <span class="ftt">Contatos:</span>
             <a class="text-decoration-none text-light" target="_blank"
@@ -251,9 +252,8 @@
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init({ duration: 2000, once: true });
-    </script>
+    <script>AOS.init({ duration: 2000, once: true });</script>
+    <script src="src/js/main.js"></script>
 </body>
 
 </html>
