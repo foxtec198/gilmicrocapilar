@@ -11,6 +11,10 @@
     background: linear-gradient(#000, #0b090a, #0a0908) !important
 }
 
+.bg-gray{
+    background: #333 !important;
+}
+
 /* Texts */
 .text-insta{
     color: #E1306C !important;
@@ -25,7 +29,7 @@
 }
 
 .text-gray-light{
-    color: #777 !important;
+    color: #999 !important;
 }
 
 .text-gray-sub{
@@ -52,4 +56,12 @@
     .mobile{
         display: none !important;
     }
+}
+
+.flex-basis{
+    flex-basis: 400px;
+}
+
+.flex-basis-2{
+    flex-basis: 200px;
 }
