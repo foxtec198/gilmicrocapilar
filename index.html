@@ -22,6 +22,7 @@
     <nav class="mobile-hide">
         <a href="#home">Página Inicial</a>
         <a href="#about">Sobre mim</a>
+        <a href="#jobs">Trabalhos</a>
         <a href="#local">Localização</a>
         <a class="btn btn-outline-dark" href="#contato">Entre em Contato</a>
     </nav>
@@ -33,8 +34,9 @@
     </a>
 
     <!-- Hero -->
-    <div class="backHero"></div>
+    <div class="backHero"></div> <!-- Background bellow the content --> 
     <div class="contHero d-flex flex-column justify-content-end align-items-center">
+        <!-- Content of Hero -->
         <span class="display-4 fw-bold ftt" data-aos="fade">Gil Microcapilar</span>
         <span class="fs-4" data-aos="fade-down">A estética que da confiança.</span>
         <div class="d-flex mb-5 mt-2 align-items-center justify-content-center w-100" id="mouse">
@@ -45,10 +47,14 @@
     <!-- About Me -->
     <section class="bg-light-custom zi-2 d-flex text-bg-light" id="about">
         <div class="container py-5">
+            <!-- Title -->
             <span class="display-4 fw-bold" data-aos="fade-up">Sobre <span class="text-dark-gray">mim.</span></span>
+            
+            <!-- Card and Text -->
             <div class="d-flex gap-4 flex-wrap-reverse justify-content-center align-items-center p-4">
-                <div class="card shadow-lg card-dark rounded-4 d-flex flex-shrink-1" style="flex-basis: 400px; height: 80vh;"
-                    data-aos="fade-up">
+                <!-- Card with GIL image -->
+                <div class="card shadow-lg card-dark rounded-4 d-flex flex-shrink-1"
+                    style="flex-basis: 400px; height: 80vh;" data-aos="fade-up">
                     <div class="card-header d-flex flex-column">
                         <span class="fs-4 ftt gap-3 d-flex"><i class="bi bi-journal-bookmark-fill"></i> GILMAR
                             CARVALHO</span>
@@ -58,13 +64,15 @@
                     <div class="card-footer mb-2 d-flex justify-content-between gap-2 fs-4">
                         <a class="btn btn-light fw-bold" href="#contato">Contrate Já</a>
                         <div class="d-flex gap-2">
-                            <a class="text-light" href="https://www.instagram.com/gil_microcapilar/"><i
+                            <a class="text-light" target="_blank" href="https://www.instagram.com/gil_microcapilar/"><i
                                     class="bi bi-instagram"></i></a>
-                            <a class="text-light" href="https://api.whatsapp.com/send/?phone=5543988733983"><i
+                            <a class="text-light" target="_blank" href="https://api.whatsapp.com/send/?phone=5543988733983"><i
                                     class="bi bi-whatsapp"></i></a>
                         </div>
                     </div>
                 </div>
+
+                <!-- Text with breakpoints -->
                 <div class="d-flex p-2 flex-column flex-grow-1 gap-2 fs-2" style="flex-basis: 200px" data-aos="fade-down>
                     <span class=" fw-bold ftt text-dark-gray">Micropigmentador destaque do Paraná, Único de Londrina e
                     região a realizar a técnica exclusiva scalpine, que trás naturalidade nas técnicas de efeito raspado
@@ -77,13 +85,15 @@
         </div>
     </section>
 
-    <!-- Results -->
-    <section class="bg-gray" id="resultados">
+    <!-- Completed jobs -->
+    <section class="bg-gray" id="jobs">
         <div class="container py-5">
+            <!-- Title -->
             <span class="display-4 fw-bold text-end" data-aos="fade-up">
-                Nossos <span class="text-gray-light">Resultados.</span>
+                Trabalhos <span class="text-gray-light">Realizados.</span>
             </span>
             <div class="d-flex mt-5 h-100 gap-2 justify-content-center flex-wrap-reverse">
+                <!-- Imgs of jobs -->
                 <div class="parent flex-grow-1 flex-basis">
                     <div class="div1" data-aos="fade-down-right"></div>
                     <div class="div2" data-aos="fade-down"></div>
@@ -92,6 +102,7 @@
                     <div class="div5" data-aos="fade-down-left"></div>
                     <div class="div7" data-aos="fade-down-left"></div>
                 </div>
+                <!-- Flux -->
                 <div class="d-flex justify-content-center align-items-center flex-grow-1 flex-basis">
                     Em desenvolvimento: Fluxograma
                 </div>
@@ -99,14 +110,16 @@
         </div>
     </section>
 
-    <!-- Endereço -->
+    <!-- Address -->
     <section class="bg-dark-custom zi-2" id="local">
         <div class="container py-5">
+            <!-- Title -->
             <span class="display-4 fw-bold text-end" data-aos="fade-up">
                 Minha <span class="text-gray-light">Localização.</span>
             </span>
+            <!-- Content -->
             <div class="d-flex gap-4 flex-wrap p-4 justify-content-between">
-                <!-- Lista de Horarios -->
+                <!-- Opening hours -->
                 <ul class="list-group flex-grow-1 rounded-4" style="flex-basis: 400px;" data-aos="fade-up">
                     <li
                         class="list-group-item list-group-item-action bg-dark-custom d-flex justify-content-between align-items-start">
@@ -164,7 +177,7 @@
                         <span class="badge text-bg-danger rounded-pill">Fechado</span>
                     </li>
                 </ul>
-                <!-- Mapa -->
+                <!-- Map -->
                 <iframe class="flex-grow-1 rounded-4" style="flex-basis: 300px; min-height: 300px; min-width: 200px;"
                     id="locate"
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3558.847045400742!2d-51.132924499999994!3d-23.3228598!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94eb435c9d8e24f9%3A0x5ff1821dc2be5562!2sGil%20Microcapilar%20-%20Micropigmenta%C3%A7%C3%A3o%20Capilar%20Masculina!5e1!3m2!1spt-BR!2sbr!4v1762262263856!5m2!1spt-BR!2sbr"
@@ -175,12 +188,15 @@
         </div>
     </section>
 
-    <!-- Contato -->
+    <!-- Contact -->
     <section class="bg-light-custom zi-2" id="contato">
         <div class="container">
+            <!-- Title -->
             <span class="display-4 fw-bold" data-aos="fade-up">Entre em <span
                     class="text-dark-gray">Contato!</span></span>
+            <!-- Content -->
             <div class="d-flex gap-4 justify-content-center align-items-center p-4 flex-wrap">
+                <!-- Contact Form -->
                 <form class="form-control flex-grow-1 d-flex flex-column gap-2 p-4" style="flex-basis: 500px;">
                     <span class="fs-5 ftt">Digite seus dados abaixo!</span>
                     <span>Lembrando que seus dados são confidenciais, e protegido pela lei LGPD N° 13.709/2018!</span>
@@ -201,19 +217,23 @@
                     </div>
                     <button class="btn btn-outline-light w-100">Entrar em contato!</button>
                 </form>
+
+                <!-- Separator -->
                 <span class="fs-4 flex-grow-1 text-center" style="flex-basis: 80px;"> -- Ou --</span>
+
+                <!-- Contact Card -->
                 <div class="card flex-grow-1 gap-4 p-4 d-flex flex-column" style="flex-basis: 500px;">
                     <span class="fs-5 ftt">Entre em contato</span>
                     <span>Utilizando um dos canais abaixo.</span>
-                    <a class="btn btn-lg btn-light" target="_blank" href="mailto:gilmarmicrocapilar@gmail.com"><i
-                            class="bi bi-envelope-paper-fill"></i>
-                        gilmarmicrocapilar@gmail.com</a>
                     <a class="btn btn-lg btn-light" target="_blank"
                         href="https://api.whatsapp.com/send/?phone=5543988733983"><i class="bi bi-telephone-fill"></i>
                         (43)98873-3983</a>
                     <a class="btn btn-lg btn-light" target="_blank"
                         href="https://www.instagram.com/gil_microcapilar/"><i class="bi bi-instagram"></i>
                         @gil_microcapilar</a>
+                    <a class="btn btn-lg btn-light" target="_blank" href="mailto:gilmarmicrocapilar@gmail.com"><i
+                            class="bi bi-envelope-paper-fill"></i>
+                        gilmarmicrocapilar@gmail.com</a>
                 </div>
             </div>
         </div>
@@ -223,6 +243,7 @@
     <footer class="h-100 p-5 mobile-hide zi-2" id="footer">
         <div class="d-flex h-100 flex-column">
             <div class="d-flex mt-5 justify-content-between align-items-center flex-grow-1">
+                <!-- Types of contact -->
                 <div class="d-flex flex-column gap-2 fs-5" data-aos="fade-down">
                     <span class="ftt">Contatos:</span>
                     <a class="text-decoration-none text-light" target="_blank"
@@ -235,11 +256,15 @@
                         href="https://www.instagram.com/gil_microcapilar/"><i class="bi bi-instagram"></i>
                         @gil_microcapilar</a>
                 </div>
+
+                <!-- GIL Copywrite -->
                 <div class="d-flex flex-column align-items-center justify-content-center" data-aos="fade-down">
                     <img src="src/assets/svg/favicon.svg" width="100vh" alt="">
                     &copy; 2025 Gil Microcapilar. Todos os direitos reservados.
                 </div>
             </div>
+
+            <!-- Dev by Tecnobreve -->
             <div class="flex-grow-1 text-center" style="transform: translateY(200px);" data-aos="fade-up">
                 <a href="https://tecnobreve.onrender.com" class="text-decoration-none text-light"
                     target="_blank">Desenvolvido por
@@ -248,8 +273,9 @@
         </div>
     </footer>
 
-    <!-- Footer Mobilr -->
+    <!-- Footer Mobile -->
     <div class="d-flex bg-dark-custom zi-2 flex-column gap-4 p-4 mobile justify-content-center align-items-center">
+        <!-- Types of Contact -->
         <div class="d-flex mt-5 flex-column gap-2 fs-5" data-aos="fade-down">
             <span class="ftt">Contatos:</span>
             <a class="text-decoration-none text-light" target="_blank" href="mailto:gilmarmicrocapilar@gmail.com"><i
@@ -262,8 +288,12 @@
                 href="https://www.instagram.com/gil_microcapilar/"><i class="bi bi-instagram"></i>
                 @gil_microcapilar</a>
         </div>
+
+        <!-- GIL Copywrite -->
         <img src="src/assets/svg/favicon.svg" width="100vh" class="mt-5 img-fluid" alt="Logo Gil">
         <span>&copy; 2025 Gil Microcapilar. Todos os direitos reservados.</span>
+
+        <!-- Dev by Tecnobreve -->
         <a href="https://tecnobreve.onrender.com" class="text-decoration-none mb-5 text-light"
             target="_blank">Desenvolvido por
             <img src="src/assets/img/tecnobreve.png" class="img-fluid" width="200vh" alt=""></a>
